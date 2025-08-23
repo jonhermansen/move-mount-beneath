@@ -13,6 +13,7 @@
 #include <sys/prctl.h>
 #include <sys/wait.h>
 #include <unistd.h>
+#include <linux/types.h>
 
 #ifndef __NR_fsmount
 	#if defined __alpha__
